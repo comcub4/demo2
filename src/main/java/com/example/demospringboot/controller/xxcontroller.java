@@ -18,6 +18,12 @@ public class xxcontroller {
 		map.put("age", age);
 		return map;
 	}
+	
+	@RequestMapping(value ="/test")
+	public String test() {
+		
+		return "for test";
+	}
 }
 
 class User{
